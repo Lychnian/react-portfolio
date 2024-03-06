@@ -65,7 +65,7 @@ function Header({ currentPage, handlePageChange }) {
           </li>
           <li style={styles.padding} className="nav-item">
             <a
-              href="#resume"
+              href="#Resume"
               onClick={() => handlePageChange("Resume")}
               className={
                 currentPage === "Resume" ? "nav-link-active" : "nav-link"

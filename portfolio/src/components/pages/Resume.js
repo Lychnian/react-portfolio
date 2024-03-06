@@ -1,6 +1,6 @@
 import React from "react";
 import ResumeHelenColon from "../../pdf/Resume.pdf";
-import "../../css/Resume.css"; // Import CSS file for styling
+import "../../css/resume.css"; // Import CSS file for styling
 
 export default function Resume() {
   return (
