@@ -14,7 +14,6 @@ const styles = {
     fontSize: "50px",
     paddingLeft: "1rem",
     color: "#FFFF00", // Set name color to yellow
-    fontSize: "36px", // Increase font size for name
   },
   padding: {
     padding: "8px",
