@@ -1,0 +1,28 @@
+.resume-container {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem;
+  }
+  
+  .resume-header {
+    text-align: center;
+    font-size: 2rem; /* 32px */
+  }
+  
+  .resume-link {
+    color: #007bff;
+  }
+  
+  .resume-link:hover {
+    color: yellow;
+  }
+  
+  .resume-skills-header {
+    padding-top: 1rem; /* 16px */
+    font-size: 1.5rem; /* 24px */
+  }
+  
+  .resume-skills-subheader {
+    font-size: 1.25rem; /* 20px */
+  }
+  
