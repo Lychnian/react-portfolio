@@ -4,3 +4,30 @@ a.nav-link {
     padding-left: 0px;
     padding-right: 0px;
 };
+
+
+navbar {
+    background-color: black; 
+    color: white;
+}
+
+navbarA {
+    color: #0000FF;
+    font-size: 19px;
+}
+
+h1 {
+    font-size: 50px;
+    padding-left: 1rem;
+    color: #FFFF00; // Set name color to yellow
+};
+    
+padding {
+    padding: 8px;
+};
+
+flexContainer {
+    display: flex;
+    align-Items: center;
+    justify-Content: center;
+};
