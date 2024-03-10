@@ -1,33 +1,48 @@
-a.nav-link {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-};
-
-
-navbar {
+.navbar {
     background-color: black; 
     color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-navbarA {
-    color: #0000FF;
+.navbarA {
+    list-style-type: none;
+    color: white;
     font-size: 19px;
+    display: flex;
+}
+
+.navbarA li a {
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.navbarA li a.nav-link-active {
+    color: red;
 }
 
 h1 {
     font-size: 50px;
     padding-left: 1rem;
-    color: #FFFF00; // Set name color to yellow
-};
+    color: white;
+}
     
-padding {
+.padding {
     padding: 8px;
-};
+}
 
-flexContainer {
+.flexContainer {
     display: flex;
-    align-Items: center;
-    justify-Content: center;
-};
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    padding: 0;
+}

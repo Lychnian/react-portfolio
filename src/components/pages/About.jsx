@@ -1,5 +1,6 @@
 import React from 'react';
 import HelenColon from "../../img/HelenColon.png";
+import '../../css/about.css';
 
 const styles = {
   HelenColon: {
