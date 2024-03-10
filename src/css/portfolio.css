@@ -1,12 +1,91 @@
-.card {
-    margin: 0.5rem;
+/* General styles */
+.portfolio-background {
+  background-color: black;
+  color: white;
+  padding: 20px 20px; /* Increase padding */
+  min-height: 100vh; /* Full height */
+  overflow-y: auto;
 }
 
-img {
-    filter: opacity(85%);
+/* Portfolio Title */
+.portfolio-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px; /* Space below title */
 }
 
-img:hover {
-    cursor: pointer;
-    filter: opacity(100%);
+.description-container {
+  display: flex;
+  justify-content: center; /* Centers the description box */
+}
+
+/* Portfolio Description */
+.portfolio-description {
+  font-size: 30px;
+  text-align: center;
+  margin: 40px;
+  margin-left: 80px;
+  margin-right:100px;
+  padding: 0 15px; /* Padding on the sides */
+}
+
+/* Flex container for cards */
+.container {
+  display: flex;
+  justify-content: space-around; /* Adjusts spacing around items */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Card styles */
+.portfolio-card {
+  flex: 0 1 calc(50% - 40px); /* Adjusts basis for two cards per row, subtracts margin */
+  margin: 20px; /* Space between cards */
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.portfolio-card a {
+  color: white; /* Link color */
+  text-decoration: none; /* No underline */
+}
+
+.portfolio-card img {
+  width: 100%; /* Full width of card */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.3s ease; /* Smooth zoom on hover */
+}
+
+.portfolio-card:hover img {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.portfolio-card header {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Full width */
+  background-color: rgba(0, 0, 0, 0.75); /* Overlay for text */
+  color: white;
+  text-align: center;
+  padding: 12px; /* Padding for text */
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 768px) {
+  .portfolio-card {
+    flex: 0 1 calc(33.333% - 40px); /* Three cards per row on larger screens */
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-card {
+    flex: 0 1 calc(25% - 40px); /* Four cards per row on very large screens */
+  }
 }
