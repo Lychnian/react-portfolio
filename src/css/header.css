@@ -2,20 +2,21 @@
     background-color: black; 
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .navbarA {
     list-style-type: none;
     color: white;
-    font-size: 19px;
+    font-size: 20px;
     display: flex;
+    margin-right: 60px;
 }
 
 .navbarA li a {
     color: white;
-    font-size: 19px;
+    font-size: 24px;
     text-decoration: none;
 }
 
@@ -27,12 +28,18 @@
     color: red;
 }
 
-h1 {
-    font-size: 50px;
+h1.h1 {
+    font-size: 70px;
     padding-left: 1rem;
     color: white;
+    font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
+    margin-left: 40px;
 }
-    
+
+h1:hover {
+    color: red;
+}
+
 .padding {
     padding: 8px;
 }

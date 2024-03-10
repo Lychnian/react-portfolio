@@ -1,18 +1,67 @@
+.about-page {
+    overflow-y: auto;
+    background-color: black;
+}
 .about-container {
+    background-color: black;
+    color: white;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
   }
   
   .hero-image {
-    width: 100%; 
-    max-width: 1000px;
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    filter: opacity(100%);
+    cursor: default;
+    margin-top: 10px;
+    padding-top: 10px;
   }
   
   .about-content {
-    width: 100%;
-    max-width: 800px;
-    padding: 0 20px;
     text-align: center;
+    padding: 20px; /* Add padding for content */
+  }
+  
+  h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
+  }
+  
+  .hello {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .intro-text, .intro-name {
+    color: white;
+    font-size: 30px;
+  }
+  
+  .intro-name {
+    color: yellow;
+    font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
+ }
+      
+  .paragraph {
+    color: white;
+    font-size: 28px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
   }
   

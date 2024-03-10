@@ -1,0 +1,29 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    border-top: 6px solid red;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 1rem;
+    bottom: 0;
+}
+  
+.left-banner img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.right-banner img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.created-by {
+    font-family: "Lucida Calligraphy", sans-serif;
+}
