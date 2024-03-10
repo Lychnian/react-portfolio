@@ -6,11 +6,9 @@ import '../css/footer.css';
 export default function Footer() {
   return (
     <footer className="footer">
-      <div className="left-banner">
+      <div className="footer-content">
         <img src={Github} alt="Github" />
-      </div>
-      <div className="created-by">Created by Helen Colon</div>
-      <div className="right-banner">
+        <div className="created-by">  Created by Helen Colon  </div>
         <img src={LinkedIn} alt="LinkedIn" />
       </div>
     </footer>
