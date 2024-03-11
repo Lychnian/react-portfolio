@@ -18,12 +18,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 200px;
+    padding-top: 100px;
   }
   
   .hero-image {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     border: none;
     filter: opacity(100%);
     cursor: default;
@@ -67,6 +68,41 @@
     padding-bottom: 100px;
   }
   
+  @media screen and (max-width: 950px) {
+    .h1 {
+      font-size: 30px;
+    }
+
+    .paragraph {
+      font-size: 20px;
+    }
+    .about-container {
+      margin-bottom: 30px; /* Adjust margin-bottom for smaller screens */
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .hero-container {
+      margin-top: 400px; /* Adjust the margin-top for the hero container */
+      padding-top: 60px;
+    }
+  
+    .hero-image {
+      margin-top: 5px; /* Adjust the margin-top for the hero image */
+      padding-top: 5px; /* Adjust the padding-top for the hero image */
+    }
+
+    .about-content {
+      text-align: center;
+      padding: 30px; /* Add padding for content */
+    }
+
+  }
+
+
+
+
+
 
   @media screen and (max-width: 602px) {
     .about-container {

@@ -17,16 +17,16 @@
 .description-container {
   display: flex;
   justify-content: center; /* Centers the description box */
+  padding-top: 50px;
 }
 
 /* Portfolio Description */
 .portfolio-description {
   font-size: 30px;
   text-align: center;
-  margin: 40px;
   margin-left: 80px;
   margin-right:100px;
-  padding: 0 15px; /* Padding on the sides */
+  padding: 0; 
 }
 
 /* Flex container for cards */
