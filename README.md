@@ -48,9 +48,34 @@ You can visit my portfolio live at [insert-deployed-link-here](#).
 Employers can download my resume directly from the Resume section of the portfolio.
 
 
+
 ## Screenshots
-![Screenshot 1](/path/to/screenshot1.png)
-![Screenshot 2](/path/to/screenshot2.png)
+
+
+![Portfolio 1](https://github.com/Lychnian/react-portfolio/assets/140586279/0bf3405f-ec94-4045-b8d2-18132baa90e3)
+
+
+![Portfolio 2](https://github.com/Lychnian/react-portfolio/assets/140586279/99be2bb4-086a-4c81-8283-8406d4b40a1f)
+
+
+![Portfolio 3](https://github.com/Lychnian/react-portfolio/assets/140586279/02cda272-f9cc-45fb-8ca9-f4b47521b7b6)
+
+
+![Portfolio 4](https://github.com/Lychnian/react-portfolio/assets/140586279/28953471-ba0a-4917-aa96-ed25794b28cb)
+
+
+![Portfolio 5](https://github.com/Lychnian/react-portfolio/assets/140586279/4eaf8000-b6fe-4a7d-a60c-69cd703c765e)
+
+
+![Portfolio 6](https://github.com/Lychnian/react-portfolio/assets/140586279/e4560555-6582-4ef7-91e9-96b65c6b65
+9c)
+
+![Portfolio7](https://github.com/Lychnian/react-portfolio/assets/140586279/5f39179d-4550-41ca-8c5b-f792039bfa3a)
+
+
+![Portfolio 8](https://github.com/Lychnian/react-portfolio/assets/140586279/079a4ac1-7611-4d92-94b5-3fab7d4c7103)
+
+
 
 
 ## How to Contribute
