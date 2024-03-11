@@ -54,7 +54,8 @@ body {
 
 .contact-email a {
     color: yellow;
-    font-size: 20px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .input {
@@ -63,17 +64,28 @@ body {
     color: black;
     padding: 0.5rem;
     border-radius: 5px;
+    margin-bottom: 20px;
+    width: 400px;
 }
   
-.inputa {
+.input a {
     height: 40px;
+    width: 300px;
+}
+
+.input email {
+    width: 375px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;   
 }
   
 .contact-paragraph {
-    font-size: 18px;
+    font-size: 22px;
     font-style: italic;
     color: white;
     margin: 0.5rem;
+    margin-bottom: 20px;
 }
 
 button[type="button"] {
@@ -82,5 +94,30 @@ button[type="button"] {
 
 .success-text {
     color: red;
+    font-size: 24px;
     margin: 0.5rem;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+.contact-container {
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 60px;
+    margin-right: 100px;
+    padding-right: 40px;
+    margin-bottom: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    } 
+
+.contact-form {
+    width: 200px;
+
+    }
 }

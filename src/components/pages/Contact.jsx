@@ -1,53 +1,73 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { validateEmail } from "../../utils/helpers";
 import '../../css/contact.css';
 
 function Form() {
-  const [email, setEmail] = useState("");
-  const [Name, setName] = useState("");
-  const [message, setMessage] = useState("");
+  const [formData, setFormData] = useState({
+    email: "",
+    name: "",
+    message: ""
+  });
+
+  const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState("");
 
   const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.name;
-    const inputValue = target.value;
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
 
-    if (inputType === "email") {
-      setEmail(inputValue);
-    } else if (inputType === "Name") {
-      setName(inputValue);
+  const handleBlur = (e) => {
+    const { name, value } = e.target;
+    if (!value.trim()) {
+      setErrors({
+        ...errors,
+        [name]: `${name.charAt(0).toUpperCase() + name.slice(1)} is required`
+      });
     } else {
-      setMessage(inputValue);
+      setErrors({
+        ...errors,
+        [name]: ""
+      });
     }
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email)) {
-      alert("Email is Invalid");
+    if (!validateEmail(formData.email)) {
+      setErrors({
+        ...errors,
+        email: "Please enter a valid email address"
+      });
       return;
     }
 
-    if (!Name) {
-      alert("Field is Required");
+    if (!formData.name) {
+      setErrors({
+        ...errors,
+        name: "Name is required"
+      });
       return;
     }
 
-    if (!message) {
-      alert("Field is Required");
+    if (!formData.message) {
+      setErrors({
+        ...errors,
+        message: "Message is required"
+      });
       return;
     }
 
-    if (email || Name || message) {
-      setSuccessMessage("Form Submitted Successfully");
-      return;
-    }
-
-    setName("");
-    setMessage("");
-    setEmail("");
+    setSuccessMessage("Form Submitted Successfully");
+    setFormData({
+      email: "",
+      name: "",
+      message: ""
+    });
   };
 
   return (
@@ -61,34 +81,40 @@ function Form() {
         <form action="mailto:HelenColon@test.123" method="post" encType="text/plain" className="contact-form">
           <div className="input">
             <input
-              value={email}
+              value={formData.email}
               name="email"
               onChange={handleInputChange}
+              onBlur={handleBlur}
               type="email"
               placeholder="email"
               required
             />
+            {errors.email && <p>{errors.email}</p>}
           </div>
           <div className="input">
             <input
-              value={Name}
-              name="Name"
+              value={formData.name}
+              name="name"
               onChange={handleInputChange}
+              onBlur={handleBlur}
               type="text"
               placeholder="name"
               required
             />
+            {errors.name && <p>{errors.name}</p>}
           </div>
           <div className="input">
             <input
               className="inputa"
-              value={message}
+              value={formData.message}
               name="message"
               onChange={handleInputChange}
+              onBlur={handleBlur}
               type="message"
               placeholder="message"
               required
             />
+            {errors.message && <p>{errors.message}</p>}
           </div>
           <div>
             <button type="button" onClick={handleFormSubmit}>
