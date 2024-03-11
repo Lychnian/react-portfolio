@@ -12,7 +12,7 @@ export default function Portfolio() {
     <div className="portfolio-background">
       <div className="container">
         <div className="row justify-content-center">
-          {/* Project 1 */}
+          {/* Project 1 - Group Project #2 - Repo at github.com/Jeffch19/gardenbliss*/}
           <div className="col-sm-6">
             <section className="portfolio-card">
               <a href="https://garden-planner19-05823e4485e2.herokuapp.com/" target="_blank" rel="noopener noreferrer">
@@ -20,7 +20,7 @@ export default function Portfolio() {
                 <header>Garden Planner Application</header>
               </a>
               <div className="portfolio-links">
-                <a href="https://github.com/Lychnian/garden-planner" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                <a href="https://github.com/jeffch19/garden-bliss" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
               </div>
             </section>
           </div>
@@ -50,7 +50,7 @@ export default function Portfolio() {
               </div>
             </section>
           </div>
-          {/* Project 4 */}
+          {/* Project 4 - Group Project #1 */}
           <div className="col-sm-6">
             <section className="portfolio-card">
               <a href="https://lychnian.github.io/dog-breeds-for-you/" target="_blank" rel="noopener noreferrer">
