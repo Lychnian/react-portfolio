@@ -10,9 +10,6 @@ import "../../css/portfolio.css"; // Import the CSS file for styles
 export default function Portfolio() {
   return (
     <div className="portfolio-background">
-      <h2 className="portfolio-title">Portfolio</h2>
-      <span className="portfolio-description">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses achieve their goals and create a strong online presence.
-      </span>
       <div className="container">
         <div className="row justify-content-center">
           {/* Project 1 */}
