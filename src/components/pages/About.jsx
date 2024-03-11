@@ -9,7 +9,7 @@ export default function About() {
         <img src={HelenColon} alt="HelenColon" className="hero-image" />
       </div>
       <div className="about-content">
-        <h1>About Me</h1>
+        <h2>About Me</h2>
         <span className="hello">Hello,</span>
         <span className="intro-text"> I'm <span className="intro-name">Helen</span>, Full Stack Web Developer</span>
         <p className="paragraph">Welcome to my portfolio! I'm a Full Stack Web Developer with a focus on creating dynamic, 

@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
-    padding-bottom: 60;
+    padding-bottom: 60px;
   }
   
   .hero-container {
@@ -19,7 +19,9 @@
     display: flex;
     justify-content: center;
     margin-top: 200px;
-    padding-top: 100px;
+    padding-top: 250px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
   
   .hero-image {
@@ -29,7 +31,10 @@
     filter: opacity(100%);
     cursor: default;
     margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     padding-top: 10px;
+
   }
   
   .about-content {
@@ -37,11 +42,14 @@
     padding: 20px; /* Add padding for content */
   }
   
-  h1 {
+  h2 {
     color: white;
     font-size: 60px;
     font-weight: bolder;
     font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
   }
   
   .hello {
@@ -69,40 +77,59 @@
   }
   
   @media screen and (max-width: 950px) {
-    .h1 {
-      font-size: 30px;
+    h2 {
+      color: white;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .about-content {
+      text-align: center;
+      margin-top: 0;
+      padding: 0; /* Add padding for content */
     }
 
     .paragraph {
-      font-size: 20px;
+      font-size: 18px;
     }
+
     .about-container {
-      margin-bottom: 30px; /* Adjust margin-bottom for smaller screens */
+      margin-bottom: 20px; /* Adjust margin-bottom for smaller screens */
       margin-bottom: 0;
       padding-bottom: 0;
     }
 
     .hero-container {
-      margin-top: 400px; /* Adjust the margin-top for the hero container */
+      margin-top: 100px; /* Adjust the margin-top for the hero container */
       padding-top: 60px;
     }
   
     .hero-image {
-      margin-top: 5px; /* Adjust the margin-top for the hero image */
+      margin-top: 300px; /* Adjust the margin-top for the hero image */
       padding-top: 5px; /* Adjust the padding-top for the hero image */
+
     }
 
+    .hello {
+      color: white;
+      font-size: 24px;
+    }
+
+    .intro-text, .intro-name {
+      color: white;
+      font-size: 24px;
+    }
+    
+    .intro-name {
+      color: yellow;
+      font-size: 24px;
+    }
+    
     .about-content {
       text-align: center;
       padding: 30px; /* Add padding for content */
     }
-
   }
-
-
-
-
-
 
   @media screen and (max-width: 602px) {
     .about-container {
@@ -124,6 +151,8 @@
     .about-content {
       text-align: center;
       padding: 30px; /* Add padding for content */
+      padding-top: 0;
+      margin-top: 0;
     }
 
   }

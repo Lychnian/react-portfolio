@@ -59,3 +59,33 @@ h1:hover {
 .nav-link {
     padding: 0;
 }
+
+@media screen and (max-width: 950px) {
+    .navbar {
+        justify-content: center;
+        white-space: none;
+    }
+
+    h1.h1 {
+        font-size: 30px;
+    }
+
+    .navbarA li a {
+        font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+    .navbar {
+        justify-content: center;
+        white-space: none;
+    }
+
+    h1.h1 {
+        font-size: 20px;
+    }
+
+    .navbarA li a {
+        font-size: 14px;
+  }
+}

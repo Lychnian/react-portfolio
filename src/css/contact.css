@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
+
 }
 
 .contact-container {
@@ -37,7 +38,7 @@ body {
     /* Center the form horizontally */
 .contact-form {
     width: 100%;
-    max-width: 400px;  
+    max-width: 300px;
 }
   
   /* Other styles remain the same */
@@ -45,6 +46,7 @@ body {
     text-align: center;
     color: white;
     font-size: 40px;
+    font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
 }
   
 .contact-email {
@@ -65,7 +67,7 @@ body {
     padding: 0.5rem;
     border-radius: 5px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 250px;
 }
   
 .input a {
@@ -99,7 +101,7 @@ button[type="button"] {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 505px) {
 .contact-container {
     top: 0;
     left: 0;
@@ -108,8 +110,8 @@ button[type="button"] {
     display: flex;
     flex-direction: column;
     background-color: black;
-    margin-top: 60px;
-    margin-right: 100px;
+    margin-top: 20px;
+    margin-right: 50px;
     padding-right: 40px;
     margin-bottom: 60px;
     padding: 20px;
@@ -118,6 +120,32 @@ button[type="button"] {
 
 .contact-form {
     width: 200px;
+    }
+    
+.contact-title {
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding-top: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
+    }
 
+    .contact-paragraph {
+        font-size: 16px;
+        font-style: italic;
+        color: white;
+        margin: 0.5rem;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .contact-email a {
+        text-align: center;
+        color: yellow;
+        font-size: 24px;
+        margin-bottom: 20px;
+        margin-left: 60px;
     }
 }

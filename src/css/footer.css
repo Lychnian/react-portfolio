@@ -7,8 +7,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 60px;
-    font-size: 16px;
+    height: 50px;
+    font-size: 14px;
     padding: 1rem;
     bottom: 0;
     left: 0;
@@ -24,7 +24,7 @@
   }
   
   .footer-content img {
-    width: 40px; /* Adjust the size of the icons as needed */
+    width: 30px; /* Adjust the size of the icons as needed */
     margin: 0 10px; /* Add some spacing between the icons */
   }
   
@@ -32,3 +32,30 @@
     margin-top: 10px; /* Add space between the icons and the "Created by" text */
     font-family: "Lucida Calligraphy", sans-serif;
 }
+
+@media screen and (max-width: 505px) {
+    .footer {
+        width: 100%;
+        position: fixed;
+        background-color: black;
+        border-top: 6px solid red;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30px;
+        font-size: 12px;
+        padding: 1rem;
+        bottom: 0;
+        left: 0;
+        padding: 8px;
+        margin-top: 0;
+        z-index: 2;
+    }
+
+    
+  .footer-content img {
+    width: 20px; /* Adjust the size of the icons as needed */
+    margin: 0 10px; /* Add some spacing between the icons */
+  }
+}   
