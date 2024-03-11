@@ -2,7 +2,7 @@ import React from "react";
 import Portfolio1 from "../../img/garden.png";
 import Portfolio2 from "../../img/weather.png";
 import Portfolio3 from "../../img/employeetracker.png";
-import Portfolio4 from "../../img/ecommerce.png";
+import Portfolio4 from "../../img/dogs.png";
 import Portfolio5 from "../../img/timedquiz.png";
 import Portfolio6 from "../../img/socialnetwork.png";
 import "../../css/portfolio.css"; // Import the CSS file for styles
@@ -44,9 +44,9 @@ export default function Portfolio() {
           {/* Project 4 */}
           <div className="col-sm-6">
             <section className="portfolio-card">
-              <a href="https://github.com/Lychnian/server-side-commerce" target="_blank" rel="noopener noreferrer">
-                <img src={Portfolio4} alt="e-Commerce Site" className="card-img-top" />
-                <header>e-Commerce</header>
+              <a href="https://lychnian.github.io/dog-breeds-for-you/" target="_blank" rel="noopener noreferrer">
+                <img src={Portfolio4} alt="Dog Search Website" className="card-img-top" />
+                <header>Dog Search Website</header>
               </a>
             </section>
           </div>
