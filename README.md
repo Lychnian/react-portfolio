@@ -20,7 +20,7 @@ My React Portfolio is a sleek and dynamic web application showcasing my web deve
 - [Screenshots](#screenshots)
 - [How to Contribute](#how-to-contribute)
 - [Questions?](#questions)
-
+- [Credits](credits)
 
 
 ## License
@@ -90,3 +90,14 @@ Employers can download my resume directly from the Resume section of the portfol
 
 ### Reach Me Here:
 [Lychnian](https://github.com/Lychnian)
+
+
+## Credits
+
+Icons made by Xinh Studio for stackoverflow icon from www.flaticon.com
+
+Icons from www.flaticon.com
+
+
+
+
