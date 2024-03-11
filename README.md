@@ -66,14 +66,14 @@ Employers can download my resume directly from the Resume section of the portfol
 
 ![Portfolio 5](https://github.com/Lychnian/react-portfolio/assets/140586279/4eaf8000-b6fe-4a7d-a60c-69cd703c765e)
 
-
-![Portfolio 6](https://github.com/Lychnian/react-portfolio/assets/140586279/e4560555-6582-4ef7-91e9-96b65c6b65
-9c)
-
-![Portfolio7](https://github.com/Lychnian/react-portfolio/assets/140586279/5f39179d-4550-41ca-8c5b-f792039bfa3a)
+  
+![Portfolio 6](https://github.com/Lychnian/react-portfolio/assets/140586279/cf10a093-65f0-49b4-8c10-9a2cd51fc02c)
 
 
-![Portfolio 8](https://github.com/Lychnian/react-portfolio/assets/140586279/079a4ac1-7611-4d92-94b5-3fab7d4c7103)
+![Portfolio 7](https://github.com/Lychnian/react-portfolio/assets/140586279/c4ee164d-4b3e-4e80-9585-6f1cbb5dc603)
+
+
+![Portfolio8](https://github.com/Lychnian/react-portfolio/assets/140586279/7d09ead6-d5a6-431b-9bbb-0165cac97ea4)
 
 
 
