@@ -92,6 +92,7 @@ body {
 
 button[type="button"] {
     background-color: yellow;
+    margin-left: 10px;
 }
 
 .success-text {
