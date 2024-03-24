@@ -1,61 +1,64 @@
 body {
-  background-color: black;
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  margin-top: 500px;
-  height: 100vh; /* Set height to viewport height */
-  width: 100%;
-  overflow-x: view;
-  overflow: auto; /* Allow scrolling if content exceeds viewport height */
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-color: black; 
+  overflow-x: hidden; 
 }
 
 .resume-container {
-  width: 100%;
-  background-color: #000;
+  background-image: url('../img/black.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 100px;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 100vh;
   color: #fff;
-  padding: 0.5rem;
-  font-size: 26px;
-  margin-right: 70px;
-  margin-bottom: 20px;
-  margin-top: 400px;
-  padding-left: 120px;
-  padding-top: 80px;
-  padding-bottom: 60px;
+  font-size: 26px; 
+  padding: 20px; 
+  padding-left: 160px;
+  padding-right: 40px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  overflow-y: auto;
 }
-  
+
 h2 {
   text-align: left;
-  padding-top: 200px;
-  margin-left: 30px;
+  padding-top: 80px;
+  margin-left: 10px;
   font-size: 50px;
-  font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
+  font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; 
   font-weight: bolder;
 }
 
 h2 p {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
 h3 {
-  padding-left: 80px;
+  padding-left: 10px;
 }
 
 h4 {
-  padding-left: 80px;
+  padding-left: 10px;
 }
 
 .resume-header {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
   text-align: center;
   font-size: 2rem; /* 32px */
 }
   
 .resume-link {
-  margin-top: 60px;
+  margin-top: 10px;
   margin-left: 5px;
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 30px;
   color: red;
 }
@@ -65,7 +68,7 @@ h4 {
 }
   
 .resume-skills p {
-  margin-left: 60px;
+  margin-left: 10px;
 }
 
 .resume-skills-header {
@@ -79,129 +82,70 @@ h4 {
 
 .resume-container p {
   text-align: justify;
-  margin-right: 200px;
-  margin-left: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-@media screen and (max-width: 1260px) {
-  h2 {
-    margin-top: 300px;
-  }
-}
 
-@media screen and (max-width: 970px) {
-  h2 {
-    margin-top: 400px;
-  }
-}
-
-@media screen and (max-width: 805px) {
-  .resume-container h2 {
-    text-align: left;
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-right: 0;
-  }
-
- .resume-link {
-    font-size: 20px;
-    margin-left: 5px;
-  }
-}
-
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1250px) {
   .resume-container {
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    padding: 0.5rem;
+    top: 100px;
+    padding-top: 240px;
+    padding-left: 100px;
+    padding-right: 30px;
     font-size: 18px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    margin-top: 400px;
-    padding-top: 80px;
-    padding-bottom: 80px;
   }
-    
-  .resume-container p {
-    text-align: justify;
-    margin-right: 100px;
-    margin-left: 30px;
-  }
-   
+
   h2 {
-    text-align: center;
-    padding-top: 30px;
-    margin-left: 40px;
-    font-size: 30px;
-  }
-    
-  .resume-link {
-    text-align: center;
-    margin-top: 100px;
-    margin-left: 30px;
+    margin-top: 10px;
     padding-top: 40px;
-    color: red;
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  .resume-container {
+    top: 100px;
+    padding-top: 240px;
+    padding-left: 60px;
+    padding-right: 30px;
+    font-size: 18px;
+  }
+
+  h2 {
+    margin-top: 10px;
+    padding-top: 40px;
+    font-size: 36px;
   }
 }
 
 @media screen and (max-width: 580px) {
   .resume-container {
-    width: 100%;
-    background-color: #000;
-    color: #fff;
-    padding: 0.5rem;
-    font-size: 16px;
-    margin-right: 40px;
+    top: 100px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .resume-container {
+    top: 100px;
     padding-left: 40px;
-    margin-bottom: 20px;
-    margin-top: 400px;
-    padding-top: 80px;
-    padding-bottom: 60px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    font-size: 16px;
   }
 
-  .resume-container p {
-    margin-right: 40px;
-    margin-left: 20px; 
+  .container {
+    padding-top: 100px;
+    padding-bottom: 40px;
   }
 
   h2 {
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 20px;
-    margin-right: 80px;
     font-size: 30px;
   }
 
   .resume-link {
-    text-align: left;
-    margin-left: 5px;
-    margin-top: 100px;
-    padding-top: 40px;
-    color: red;
-  }
-
-  .resume-container p {
-    margin-right: 60px;
-    margin-left: 20px; 
-  }
-
-  h3 {
-    margin-left: 20px;
-  }
-
-  h4 {
-    margin-left: 20px;
-  }
-}
-
-@media screen and (max-width: 428px) {
-  h2 {
-    margin-top: 60px;
-  }
-
-.resume-link {
     font-size: 20px;
-    margin-left: 60px;
+    font-weight: bolder;
   }
 }
