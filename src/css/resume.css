@@ -5,6 +5,7 @@ body {
   color: #fff;
   background-color: black; 
   overflow-x: hidden; 
+  overflow-y: auto;
 }
 
 .resume-container {

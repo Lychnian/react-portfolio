@@ -11,8 +11,6 @@ body {
 
 .container {
     background-color: black; /* Add background color to the container */
-    height: 100vh; /* Make the container cover the entire viewport height */
-    width: 100%; 
     display: flex;
     justify-content: center; /* Center the content horizontally */
     align-items: center; /* Center the content vertically */
@@ -22,8 +20,6 @@ body {
 .contact-container {
     top: 0;
     left: 0;
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,7 +68,7 @@ body {
   
 .input a {
     height: 40px;
-    width: 300px;
+    width: 275px;
 }
 
 .input email {
@@ -93,6 +89,7 @@ body {
 button[type="button"] {
     background-color: yellow;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .success-text {
@@ -106,14 +103,14 @@ button[type="button"] {
 .contact-container {
     top: 0;
     left: 0;
-    width: 200px;
+    width: 250px;
     height: auto;
     display: flex;
     flex-direction: column;
     background-color: black;
     margin-top: 20px;
     margin-right: 50px;
-    padding-right: 40px;
+    padding-right: 50px;
     margin-bottom: 60px;
     padding: 20px;
     border-radius: 10px;
@@ -148,5 +145,64 @@ button[type="button"] {
         font-size: 24px;
         margin-bottom: 20px;
         margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        overflow-y: hidden;
+    }
+
+    .contact-container {
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 60px;
+        margin-top: -80px;
+        padding: 5px;
+        border-radius: 10px;
+        overflow-y: hidden;
+        }
+
+    h1.contact-title {
+        font-size: 24px;
+        font-weight: bolder;
+        margin-left: 0;
+    }
+
+    .contact-email a {
+        margin: 0;
+    }
+
+    .contact-paragraph {
+        font-size: 18px;
+        font-style: italic;
+        color: white;
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 5px;
+
+        
+    }
+
+    .contact-form {
+        width: 250px;
+    }
+
+    .contact-form label {
+        width: 100px;
+        max-width: 220px;
+    }
+
+    .contact-form input {
+        width: 100%; 
+        max-width: 200px; 
     }
 }
