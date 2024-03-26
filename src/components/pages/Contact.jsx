@@ -76,9 +76,9 @@ function Form() {
         <h1 className="contact-title">Contact Me</h1>
         <p className="contact-paragraph">Please fill out the form below to contact me for work opportunities.</p>
         <div className="contact-email">
-          <a href="mailto:HelenColon@test.123">HelenColon@test.123</a>
+          <a href="mailto:helenvcolon@gmail.com">helenvcolon@gmail.com</a>
         </div>
-        <form action="mailto:HelenColon@test.123" method="post" encType="text/plain" className="contact-form">
+        <form action="mailto:helenvcolon@gmail.com" method="post" encType="text/plain" className="contact-form">
           <div className="input">
             <input
               value={formData.email}
