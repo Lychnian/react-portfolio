@@ -2,7 +2,7 @@
     width: 100%;
     position: fixed;
     background-color: black;
-    border-top: 6px solid red;
+    border-top: 6px solid rgb(14, 184, 184);
     color: white;
     display: flex;
     justify-content: space-around;
@@ -38,7 +38,7 @@
         width: 100%;
         position: fixed;
         background-color: black;
-        border-top: 6px solid red;
+        border-top: 6px solid rgb(14, 184, 184);
         color: white;
         display: flex;
         justify-content: space-around;

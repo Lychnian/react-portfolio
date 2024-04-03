@@ -22,7 +22,7 @@ body {
     left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     background-color: black;
     margin-top: 60px;
@@ -34,7 +34,7 @@ body {
     /* Center the form horizontally */
 .contact-form {
     width: 100%;
-    max-width: 300px;
+    max-width: 320px;
 }
   
   /* Other styles remain the same */
@@ -56,19 +56,37 @@ body {
     margin-bottom: 20px;
 }
 
-.input {
+input {
+    width: 245px;
+}
+    
+.email, .name, .message {
     margin: 0.5rem;
     background-color: white;
     color: black;
     padding: 0.5rem;
     border-radius: 5px;
     margin-bottom: 20px;
-    width: 250px;
+    width: 275px;
+}
+
+textarea {
+    width: 268px;
+    height: 60px;
 }
   
-.input a {
-    height: 40px;
-    width: 275px;
+.inputa {
+    width: 255px; /* Ensure it fills the container */
+    height: auto; /* Adjust based on content, or set a fixed height */
+    padding: 0.5rem;
+    vertical-align: text-top;
+    text-align: left; /* Align text to the left */
+    align-items: flex-start;
+    flex-wrap: wrap;
+    line-height: normal; /* Ensure normal line height */
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-y: scroll;
 }
 
 .input email {
@@ -86,7 +104,7 @@ body {
     margin-bottom: 20px;
 }
 
-button[type="button"] {
+button[type="submit"] {
     background-color: yellow;
     margin-left: 10px;
     margin-bottom: 20px;
@@ -97,6 +115,99 @@ button[type="button"] {
     font-size: 24px;
     margin: 0.5rem;
     margin-top: 20px;
+}
+
+
+@media screen and (max-width: 701px) {
+    .container {
+        margin-top: 0;
+        background-color: black; /* Add background color to the container */
+        display: flex;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        overflow-y: hidden;
+    }
+
+    .contact-container {
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        padding: 5px;
+        border-radius: 10px;
+        overflow-y: hidden;
+        }
+
+    h1.contact-title {
+        font-size: 24px;
+        font-weight: bolder;
+        margin-left: 0;
+    }
+
+    .contact-email a {
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    .contact-paragraph {
+        font-size: 18px;
+        font-style: italic;
+        color: white;
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 5px;
+    }
+
+    .contact-form {
+        width: 250px;
+        justify-content: center;
+    }
+
+    .contact-form label {
+        width: 90%;
+        max-width: 240px;
+    }
+
+    input {
+        max-width: 220px; 
+    }
+    
+    .email, .name, .message {
+        margin: 0.5rem;
+        background-color: white;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: 225px;
+    }
+
+    textarea {
+        width: 220px;
+        height: 60px;
+    }
+  
+    .inputa {
+        width: 250px; /* Ensure it fills the container */
+        height: auto; /* Adjust based on content, or set a fixed height */
+        padding: 0.4rem;
+        vertical-align: text-top;
+        text-align: left; /* Align text to the left */
+        align-items: flex-start;
+        flex-wrap: wrap;
+        line-height: normal; /* Ensure normal line height */
+        word-wrap: break-word;
+        word-break: break-all;
+        overflow-y: scroll;
+    }
 }
 
 @media screen and (max-width: 505px) {
@@ -131,26 +242,43 @@ button[type="button"] {
     }
 
     .contact-paragraph {
-        font-size: 16px;
+        font-size: 18px;
         font-style: italic;
         color: white;
         margin: 0.5rem;
         margin-bottom: 20px;
         text-align: left;
+        margin-left: 30px;
     }
 
     .contact-email a {
         text-align: center;
         color: yellow;
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 20px;
         margin-left: 60px;
     }
+    
+    .email, .name, .message {
+        margin: 0.5rem;
+        background-color: white;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    textarea {
+        width: 245px;
+        height: 60px;
+    }
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 505px) {
     .container {
-        overflow-y: hidden;
+        margin-top: 80px;
     }
 
     .contact-container {
@@ -164,21 +292,22 @@ button[type="button"] {
         justify-content: center;
         margin-right: 10px;
         margin-left: 10px;
-        margin-bottom: 60px;
-        margin-top: -80px;
+        margin-bottom: 40px;
         padding: 5px;
         border-radius: 10px;
-        overflow-y: hidden;
-        }
+    }
 
     h1.contact-title {
         font-size: 24px;
         font-weight: bolder;
         margin-left: 0;
+        margin-top: 0;
+        color: white;
     }
 
     .contact-email a {
-        margin: 0;
+        margin-left: 20px;
+        font-size: 18px;
     }
 
     .contact-paragraph {
@@ -188,21 +317,48 @@ button[type="button"] {
         text-align: left;
         padding-left: 40px;
         padding-right: 5px;
-
-        
     }
 
     .contact-form {
         width: 250px;
+        justify-content: center;
     }
 
     .contact-form label {
-        width: 100px;
-        max-width: 220px;
+        width: 90%;
+        max-width: 240px;
     }
 
-    .contact-form input {
-        width: 100%; 
-        max-width: 200px; 
+    input {
+        max-width: 220px; 
+    }
+    
+    .email, .name, .message {
+        margin: 0.5rem;
+        background-color: white;
+        color: black;
+        padding: 0.5rem;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: 225px;
+    }
+
+    textarea {
+        width: 220px;
+        height: 60px;
+    }
+  
+    .inputa {
+        width: 250px; /* Ensure it fills the container */
+        height: auto; /* Adjust based on content, or set a fixed height */
+        padding: 0.4rem;
+        vertical-align: text-top;
+        text-align: left; /* Align text to the left */
+        align-items: flex-start;
+        flex-wrap: wrap;
+        line-height: normal; /* Ensure normal line height */
+        word-wrap: break-word;
+        word-break: break-all;
+        overflow-y: scroll;
     }
 }

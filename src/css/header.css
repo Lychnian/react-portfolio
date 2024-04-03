@@ -31,7 +31,7 @@
 }
 
 .navbarA li a.nav-link-active {
-    color: red;
+    color: rgb(14, 184, 184);
 }
 
 h1.h1 {
@@ -43,7 +43,7 @@ h1.h1 {
 }
 
 h1:hover {
-    color: red;
+    color: yellow;
 }
 
 .padding {
@@ -76,7 +76,7 @@ h1:hover {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .navbar {
         justify-content: center;
         align-items: center;
@@ -85,10 +85,31 @@ h1:hover {
     }
 
     h1.h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .navbarA li a {
         font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 380px) {
+    .navbar {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        white-space: none;
+        height: 70px;
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    h1.h1 {
+        font-size: 16px;
+    }
+
+    .navbarA li a {
+        font-size: 12px;
   }
 }
