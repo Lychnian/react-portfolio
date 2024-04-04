@@ -8,7 +8,7 @@ export default function Resume() {
       <h2>Resume</h2>
       <p>
         <a className="resume-link" href={ResumeHelenColon} download>
-          Download Full Resume
+          DOWNLOAD FULL RESUME
         </a>
       </p>
       <p>
@@ -22,28 +22,30 @@ export default function Resume() {
       Below is a summary of my technical skills:
       </p>
       <h3>Technical Skills</h3>
-      <div>
-        <h4>Front-End</h4>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>JQuery</li>
-          <li>React</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Back-End</h4>
-        <ul>
-          <li>MySQL</li>
-          <li>Sequelize</li>
-          <li>MongoDB</li>
-          <li>Mongoose</li>
-          <li>Express</li>
-          <li>Node</li>
-          <li>APIs</li>
-          <li>GraphQL</li>
-        </ul>
+      <div className="skills-container">
+        <div className="front-end">
+          <h4>Front-End</h4>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>JQuery</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div className="back-end">
+          <h4>Back-End</h4>
+          <ul>
+            <li>MySQL</li>
+            <li>Sequelize</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>Express</li>
+            <li>Node</li>
+            <li>APIs</li>
+            <li>GraphQL</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

@@ -1,4 +1,9 @@
 /* contact.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -10,355 +15,46 @@ body {
 }
 
 .container {
-    background-color: black; /* Add background color to the container */
-    display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
-
-}
-
-.contact-container {
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
-    background-color: black;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-} 
-  
-    /* Center the form horizontally */
-.contact-form {
-    width: 100%;
-    max-width: 320px;
 }
   
-  /* Other styles remain the same */
-.contact-title {
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
-}
-  
-.contact-email {
-    text-align: center;
-    color: yellow;
-}
-
-.contact-email a {
-    color: yellow;
+h1 {
     font-size: 24px;
+    margin: 20px 20px;
     margin-bottom: 20px;
-}
-
-input {
-    width: 245px;
-}
-    
-.email, .name, .message {
-    margin: 0.5rem;
-    background-color: white;
-    color: black;
-    padding: 0.5rem;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    width: 275px;
-}
-
-textarea {
-    width: 268px;
-    height: 60px;
-}
-  
-.inputa {
-    width: 255px; /* Ensure it fills the container */
-    height: auto; /* Adjust based on content, or set a fixed height */
-    padding: 0.5rem;
-    vertical-align: text-top;
-    text-align: left; /* Align text to the left */
-    align-items: flex-start;
-    flex-wrap: wrap;
-    line-height: normal; /* Ensure normal line height */
-    word-wrap: break-word;
-    word-break: break-all;
-    overflow-y: scroll;
-}
-
-.input email {
-    width: 375px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;   
 }
   
-.contact-paragraph {
-    font-size: 22px;
-    font-style: italic;
-    color: white;
-    margin: 0.5rem;
-    margin-bottom: 20px;
-}
-
-button[type="submit"] {
-    background-color: yellow;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-.success-text {
-    color: red;
+p {
     font-size: 24px;
-    margin: 0.5rem;
-    margin-top: 20px;
+    margin: 20px 20px;
+    padding: 10px;
 }
 
 
-@media screen and (max-width: 701px) {
-    .container {
-        margin-top: 0;
-        background-color: black; /* Add background color to the container */
-        display: flex;
-        justify-content: center; /* Center the content horizontally */
-        align-items: center; /* Center the content vertically */
-        overflow-y: hidden;
-    }
-
-    .contact-container {
-        top: 0;
-        left: 0;
-        width: 80%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        padding: 5px;
-        border-radius: 10px;
-        overflow-y: hidden;
-        }
-
-    h1.contact-title {
-        font-size: 24px;
-        font-weight: bolder;
-        margin-left: 0;
-    }
-
-    .contact-email a {
-        margin-left: 20px;
-        font-size: 18px;
-    }
-
-    .contact-paragraph {
-        font-size: 18px;
-        font-style: italic;
-        color: white;
-        text-align: left;
-        padding-left: 40px;
-        padding-right: 5px;
-    }
-
-    .contact-form {
-        width: 250px;
-        justify-content: center;
-    }
-
-    .contact-form label {
-        width: 90%;
-        max-width: 240px;
-    }
-
-    input {
-        max-width: 220px; 
-    }
-    
-    .email, .name, .message {
-        margin: 0.5rem;
-        background-color: white;
-        color: black;
-        padding: 0.5rem;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        width: 225px;
-    }
-
-    textarea {
-        width: 220px;
-        height: 60px;
-    }
-  
-    .inputa {
-        width: 250px; /* Ensure it fills the container */
-        height: auto; /* Adjust based on content, or set a fixed height */
-        padding: 0.4rem;
-        vertical-align: text-top;
-        text-align: left; /* Align text to the left */
-        align-items: flex-start;
-        flex-wrap: wrap;
-        line-height: normal; /* Ensure normal line height */
-        word-wrap: break-word;
-        word-break: break-all;
-        overflow-y: scroll;
-    }
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-@media screen and (max-width: 505px) {
-.contact-container {
-    top: 0;
-    left: 0;
-    width: 250px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    margin-top: 20px;
-    margin-right: 50px;
-    padding-right: 50px;
-    margin-bottom: 60px;
-    padding: 20px;
-    border-radius: 10px;
-    } 
-
-.contact-form {
-    width: 200px;
-    }
-    
-.contact-title {
-    text-align: center;
-    margin-left: 60px;
-    margin-top: 10px;
-    padding-top: 10px;
+.btn {
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgb(14, 184, 184);
     color: white;
-    font-size: 24px;
-    font-family: "Lucida Calligraphy", "Lucida Handwriting", cursive; /* Use Lucida Calligraphy or any cursive font */
-    }
-
-    .contact-paragraph {
-        font-size: 18px;
-        font-style: italic;
-        color: white;
-        margin: 0.5rem;
-        margin-bottom: 20px;
-        text-align: left;
-        margin-left: 30px;
-    }
-
-    .contact-email a {
-        text-align: center;
-        color: yellow;
-        font-size: 20px;
-        margin-bottom: 20px;
-        margin-left: 60px;
-    }
-    
-    .email, .name, .message {
-        margin: 0.5rem;
-        background-color: white;
-        color: black;
-        padding: 0.5rem;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        width: 250px;
-    }
-
-    textarea {
-        width: 245px;
-        height: 60px;
-    }
+    padding: 10px 20px;
+    margin: 20px 20px;
+    border-radius: 5000px;
+    transition: all 0.3s;
 }
 
-
-@media screen and (max-width: 505px) {
-    .container {
-        margin-top: 80px;
-    }
-
-    .contact-container {
-        top: 0;
-        left: 0;
-        width: 80%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-        margin-left: 10px;
-        margin-bottom: 40px;
-        padding: 5px;
-        border-radius: 10px;
-    }
-
-    h1.contact-title {
-        font-size: 24px;
-        font-weight: bolder;
-        margin-left: 0;
-        margin-top: 0;
-        color: white;
-    }
-
-    .contact-email a {
-        margin-left: 20px;
-        font-size: 18px;
-    }
-
-    .contact-paragraph {
-        font-size: 18px;
-        font-style: italic;
-        color: white;
-        text-align: left;
-        padding-left: 40px;
-        padding-right: 5px;
-    }
-
-    .contact-form {
-        width: 250px;
-        justify-content: center;
-    }
-
-    .contact-form label {
-        width: 90%;
-        max-width: 240px;
-    }
-
-    input {
-        max-width: 220px; 
-    }
-    
-    .email, .name, .message {
-        margin: 0.5rem;
-        background-color: white;
-        color: black;
-        padding: 0.5rem;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        width: 225px;
-    }
-
-    textarea {
-        width: 220px;
-        height: 60px;
-    }
-  
-    .inputa {
-        width: 250px; /* Ensure it fills the container */
-        height: auto; /* Adjust based on content, or set a fixed height */
-        padding: 0.4rem;
-        vertical-align: text-top;
-        text-align: left; /* Align text to the left */
-        align-items: flex-start;
-        flex-wrap: wrap;
-        line-height: normal; /* Ensure normal line height */
-        word-wrap: break-word;
-        word-break: break-all;
-        overflow-y: scroll;
-    }
+.btn:hover {
+    transform: scale (1.15);
+    background-color: white;
+    color: rgb(14, 184, 184);
+    font-weight: bolder;
 }
