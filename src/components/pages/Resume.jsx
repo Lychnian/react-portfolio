@@ -11,13 +11,13 @@ export default function Resume() {
           DOWNLOAD FULL RESUME
         </a>
       </p>
-      <p>
-      As a Full Stack Web Developer, I possess a diverse set of technical skills that allow me to create dynamic and engaging web applications. 
-      On the front-end, I am proficient in HTML, CSS, and JavaScript, enabling me to design visually appealing and responsive user interfaces. 
-      Additionally, I have experience with popular libraries and frameworks such as JQuery and React, allowing me to build interactive 
-      and intuitive user experiences. On the back-end, I am skilled in database management systems like MySQL and MongoDB, 
-      as well as frameworks like Express.js and Node.js. With expertise in server-side development and API integration, 
-      I can create robust and scalable web applications that meet the needs of both users and businesses.</p>
+      <p>As a Junior Full Stack Web Developer, I possess a versatile skill set that enables me to develop dynamic and engaging web applications.
+         On the front-end, I am proficient in HTML, CSS, and JavaScript, allowing me to craft visually appealing and responsive user interfaces. 
+         I also have experience with popular libraries and frameworks such as jQuery and React, enabling me to create interactive and intuitive 
+         user experiences. In backend development, I am skilled in database management systems like MySQL and MongoDB, as well as frameworks like
+         Express.js and Node.js. This expertise in server-side development and API integration enables me to create robust and scalable web applications
+         that effectively meet the needs of users and businesses alike. 
+      </p>
       <p>
       Below is a summary of my technical skills:
       </p>
