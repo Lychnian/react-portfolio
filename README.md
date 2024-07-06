@@ -2,11 +2,11 @@
 
 My React Portfolio is a sleek and dynamic web application showcasing my web development skills, projects, and contact information. With a modern design and intuitive navigation, visitors can explore my work and get in touch easily.
 
-
-![Portfolio 2](https://github.com/Lychnian/react-portfolio/assets/140586279/ff5208d2-e0ed-41c3-adee-5b5d2a767304)
+![portfolio about me main page](https://github.com/Lychnian/react-portfolio/assets/140586279/677d8b50-2f1c-416c-91d4-a955593f1f79)
 
 
 ## Badges
+
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
