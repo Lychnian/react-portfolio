@@ -89,49 +89,6 @@ Employers can download my resume directly from the Resume section of the portfol
 ![portfolio resume mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/be5d0504-c87f-4332-b1f1-2eb17b9c670a)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![Portfolio 1](https://github.com/Lychnian/react-portfolio/assets/140586279/0bf3405f-ec94-4045-b8d2-18132baa90e3)
-
-
-![Portfolio 2](https://github.com/Lychnian/react-portfolio/assets/140586279/99be2bb4-086a-4c81-8283-8406d4b40a1f)
-
-
-![Portfolio 3](https://github.com/Lychnian/react-portfolio/assets/140586279/02cda272-f9cc-45fb-8ca9-f4b47521b7b6)
-
-
-![Portfolio 4](https://github.com/Lychnian/react-portfolio/assets/140586279/28953471-ba0a-4917-aa96-ed25794b28cb)
-
-
-![Portfolio 5](https://github.com/Lychnian/react-portfolio/assets/140586279/4eaf8000-b6fe-4a7d-a60c-69cd703c765e)
-
-  
-![Portfolio 6](https://github.com/Lychnian/react-portfolio/assets/140586279/cf10a093-65f0-49b4-8c10-9a2cd51fc02c)
-
-
-![Portfolio 7](https://github.com/Lychnian/react-portfolio/assets/140586279/c4ee164d-4b3e-4e80-9585-6f1cbb5dc603)
-
-
-![Portfolio8](https://github.com/Lychnian/react-portfolio/assets/140586279/7d09ead6-d5a6-431b-9bbb-0165cac97ea4)
-
-
-
-
 ## How to Contribute
 
 [Contributor Covenant](https://www.contributor-covenant.org/)  
