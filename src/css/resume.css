@@ -44,7 +44,9 @@ body {
   
   h3 {
    text-align: center;
+   padding-top: 20px;
    padding-bottom: 10px;
+   margin-top: 10px;
   }
   
   h4 {
@@ -95,7 +97,23 @@ body {
   margin-right: 10px;
   margin-left: 10px;
 }
-  
+
+.certificate {
+  margin-left: 25px;
+  font-size: 30px;
+  background-color: rgb(14, 184, 184);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5000px;
+  transition: all 0.3s;
+}
+
+.certificate:hover {
+  transform: scale (1.15);
+  background-color: white;
+  color: rgb(14, 184, 184);;
+}
+
 .centered {
   text-align: center;
 }
@@ -164,10 +182,26 @@ body {
       font-size: 14px;
   }
 
+  .certificate {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 22%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgb(14, 184, 184);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5000px;
+    transition: all 0.3s;
+  }
+
   .skills-container {
       display: flex;
       justify-content: center;
       font-size: 14px;
+      margin-top: 20px;
   }
 }
   
@@ -193,18 +227,51 @@ body {
   .resume-link {
     font-size: 16px;
     font-weight: bolder;
+    margin-left: 16%;
+  }
+
+  .certificate {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+    .resume-link {
+    font-size: 16px;
+    font-weight: bolder;
     margin-left: 10%;
+  }
+
+  .certificate {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 25%;
   }
 }
 
 @media screen and (max-width: 380px) {
   .resume-link {
     font-size: 14px;
+    margin-left: 8%;
+  }
+
+  .certificate {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-left: 20%;
   }
 }
 
 @media screen and (max-width: 354px) {
   .resume-link {
     font-size: 10px;
+    margin-left: 15%;
+  }
+
+  .certificate {
+    font-size: 10px;
+    margin-left: 25%;
   }
 }

@@ -19,8 +19,8 @@ export default function Resume() {
          that effectively meet the needs of users and businesses alike. 
       </p>
       <p>
-      Below is a summary of my technical skills:
-      </p>
+      Click button below to view my UPenn certificate and credentials.
+      </p><a className="certificate" href="https://certificates-pod.sas.upenn.edu/7226e40a-d7a8-4bc2-bfc4-1f90a0839934" target="_blank" rel="noopener noreferrer">UPENN CERTIFICATE</a>
       <h3>Technical Skills</h3>
       <div className="skills-container">
         <div className="front-end">

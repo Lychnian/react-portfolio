@@ -59,6 +59,7 @@
   @media screen and (max-width: 1512px) {
     .portfolio-background {
       margin-top: 400px;
+      padding-top: 0;
     }
 
     h2 {
@@ -93,18 +94,18 @@
 
   @media screen and (max-width: 600px) {
     .portfolio-background {
-      margin-top: 10%;
+      margin-top: 5px;
     }
 
     h2 {
-      padding-top: 50px;
-      margin-top: 50px;
+      padding-top: 20px;
+      margin-top: 20px;
     }
   }
 
   @media screen and (max-width: 480px) {
     .portfolio-background {
-      margin-top: 5px;
+      margin-top: 0;
     }
 
     h2 {
@@ -115,7 +116,7 @@
 
   @media screen and (max-width: 430px) {
     .portfolio-background {
-      margin-top: 0;
+      margin-top: 0px;
       padding-top: 0;
     }
 
@@ -126,6 +127,7 @@
 
     h2 {
       padding-top: 2px;
+      padding-bottom: 30px;
       margin-top: 2px;
     }
   }
