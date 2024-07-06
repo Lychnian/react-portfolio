@@ -65,6 +65,47 @@ Employers can download my resume directly from the Resume section of the portfol
 ## Screenshots
 
 
+![portfolio about](https://github.com/Lychnian/react-portfolio/assets/140586279/955c552e-9f13-478c-9ef2-5b7c0feec9dd)
+
+
+![portfolio about mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/12a9c8f3-3e48-4418-ad68-8a8d26ea55d9)
+
+
+![portfolio portfolio](https://github.com/Lychnian/react-portfolio/assets/140586279/0bd568ea-b482-4d51-8f5c-bb553a2166c1)
+
+
+![portfolio portfolio mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/e74daf4b-fa7f-4b3d-a215-4c763bc7fbc3)
+
+
+![portfolio contact](https://github.com/Lychnian/react-portfolio/assets/140586279/3b51e11d-fe76-44ce-81ef-e6f5d0e09319)
+
+
+![portfolio contact mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/209b11fb-0891-4e91-948e-a7fc39f8f410)
+
+
+![portfolio resume](https://github.com/Lychnian/react-portfolio/assets/140586279/126cdd68-85e5-496c-b2e9-2bda12f5761c)
+
+
+![portfolio resume mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/be5d0504-c87f-4332-b1f1-2eb17b9c670a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![Portfolio 1](https://github.com/Lychnian/react-portfolio/assets/140586279/0bf3405f-ec94-4045-b8d2-18132baa90e3)
 
 
