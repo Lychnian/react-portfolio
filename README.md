@@ -3,10 +3,12 @@
 My React Portfolio is a sleek and dynamic web application showcasing my web development skills, projects, and contact information. With a modern design and intuitive navigation, visitors can explore my work and get in touch easily.
 
 
-![Portfolio 2](https://github.com/Lychnian/react-portfolio/assets/140586279/ff5208d2-e0ed-41c3-adee-5b5d2a767304)
+![portfolio about me main page](https://github.com/Lychnian/react-portfolio/assets/140586279/febf1a05-29a1-48a3-a40e-7944888c3f4c)
+
 
 
 ## Badges
+
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
@@ -65,30 +67,28 @@ Employers can download my resume directly from the Resume section of the portfol
 ## Screenshots
 
 
-![Portfolio 1](https://github.com/Lychnian/react-portfolio/assets/140586279/0bf3405f-ec94-4045-b8d2-18132baa90e3)
+![portfolio about](https://github.com/Lychnian/react-portfolio/assets/140586279/955c552e-9f13-478c-9ef2-5b7c0feec9dd)
 
 
-![Portfolio 2](https://github.com/Lychnian/react-portfolio/assets/140586279/99be2bb4-086a-4c81-8283-8406d4b40a1f)
+![portfolio about mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/12a9c8f3-3e48-4418-ad68-8a8d26ea55d9)
 
 
-![Portfolio 3](https://github.com/Lychnian/react-portfolio/assets/140586279/02cda272-f9cc-45fb-8ca9-f4b47521b7b6)
+![portfolio portfolio](https://github.com/Lychnian/react-portfolio/assets/140586279/0bd568ea-b482-4d51-8f5c-bb553a2166c1)
 
 
-![Portfolio 4](https://github.com/Lychnian/react-portfolio/assets/140586279/28953471-ba0a-4917-aa96-ed25794b28cb)
+![portfolio portfolio mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/e74daf4b-fa7f-4b3d-a215-4c763bc7fbc3)
 
 
-![Portfolio 5](https://github.com/Lychnian/react-portfolio/assets/140586279/4eaf8000-b6fe-4a7d-a60c-69cd703c765e)
-
-  
-![Portfolio 6](https://github.com/Lychnian/react-portfolio/assets/140586279/cf10a093-65f0-49b4-8c10-9a2cd51fc02c)
+![portfolio contact](https://github.com/Lychnian/react-portfolio/assets/140586279/3b51e11d-fe76-44ce-81ef-e6f5d0e09319)
 
 
-![Portfolio 7](https://github.com/Lychnian/react-portfolio/assets/140586279/c4ee164d-4b3e-4e80-9585-6f1cbb5dc603)
+![portfolio contact mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/209b11fb-0891-4e91-948e-a7fc39f8f410)
 
 
-![Portfolio8](https://github.com/Lychnian/react-portfolio/assets/140586279/7d09ead6-d5a6-431b-9bbb-0165cac97ea4)
+![portfolio resume](https://github.com/Lychnian/react-portfolio/assets/140586279/126cdd68-85e5-496c-b2e9-2bda12f5761c)
 
 
+![portfolio resume mobile](https://github.com/Lychnian/react-portfolio/assets/140586279/be5d0504-c87f-4332-b1f1-2eb17b9c670a)
 
 
 ## How to Contribute
